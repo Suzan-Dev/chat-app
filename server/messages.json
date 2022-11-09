@@ -1,0 +1,70 @@
+{
+  "messages": [
+    {
+      "text": "Hello!",
+      "name": "Admin",
+      "id": "m_rTZzprZXR0-uvlAAAB.7261625238493202",
+      "socketID": "m_rTZzprZXR0-uvlAAAB"
+    },
+    {
+      "text": "Welcome to open chat application!💃🏻",
+      "name": "Admin",
+      "id": "m_rTZzprZXR0-uvlAAAB.7261625232940573",
+      "socketID": "m_rTZzprZXR0-uvlAAAB"
+    },
+    {
+      "text": "You can start chatting!📲",
+      "name": "Admin",
+      "id": "m_rTZzprZXR0-uvlAAAB.7261625232992812",
+      "socketID": "m_rTZzprZXR0-uvlAAAB"
+    },
+    {
+      "text": "hello",
+      "name": "Karan",
+      "id": "ESlcj1u337upAEFqAAAD0.7261625234628502",
+      "socketID": "ESlcj1u337upAEFqAAAD"
+    },
+    {
+      "text": "how r you?",
+      "name": "Sujan",
+      "id": "3EO7RJNfKgtEdZeBAAAF0.12595649231490058",
+      "socketID": "3EO7RJNfKgtEdZeBAAAF"
+    },
+    {
+      "text": "I'm fine man",
+      "name": "Karan",
+      "id": "le3jxgZUTyPLgQgzAAAB0.8164023088639669",
+      "socketID": "le3jxgZUTyPLgQgzAAAB"
+    },
+    {
+      "text": "and you?",
+      "name": "Karan",
+      "id": "ApCwSja3zlHmd8gtAAAD0.5821204175226766",
+      "socketID": "ApCwSja3zlHmd8gtAAAD"
+    },
+    {
+      "text": "m fine too",
+      "name": "Sujan",
+      "id": "WNdfhnIMbBa3dBU2AAAF0.07394491951097493",
+      "socketID": "WNdfhnIMbBa3dBU2AAAF"
+    },
+    {
+      "text": "bye GN",
+      "name": "Sujan",
+      "id": "KkwnJR10MCvRBF7NAAAB0.5683238659807062",
+      "socketID": "KkwnJR10MCvRBF7NAAAB"
+    },
+    {
+      "text": "bye",
+      "name": "Karan",
+      "id": "X1MMNdLVbhTH_9UaAAAB0.27337989617812064",
+      "socketID": "X1MMNdLVbhTH_9UaAAAB"
+    },
+    {
+      "text": "cya",
+      "name": "Karan",
+      "id": "hNuocXmCZ-iJBnqVAAAD0.7505632410932186",
+      "socketID": "hNuocXmCZ-iJBnqVAAAD"
+    }
+  ]
+}

@@ -27,6 +27,15 @@ const ChatPage: FC<ChatPageProps> = ({ socket }) => {
   }, [messages.length]);
 
   useEffect(() => {
+    function fetchMessages() {
+      fetch('http://localhost:4000/api')
+        .then((response) => response.json())
+        .then((data) => setMessages(data.messages));
+    }
+    fetchMessages();
+  }, []);
+
+  useEffect(() => {
     // 👇️ scroll to bottom every time messages change
     lastMessageRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages.length]);
