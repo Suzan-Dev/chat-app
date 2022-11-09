@@ -1,5 +1,6 @@
 import { FC, useEffect, useState } from 'react';
 import { Socket } from 'socket.io-client';
+import checkPageStatus from '../../utils/notification';
 
 interface ChatFooterProps {
   socket: Socket;
@@ -20,6 +21,7 @@ const ChatFooter: FC<ChatFooterProps> = ({ socket }) => {
       });
     }
 
+    checkPageStatus(localStorage.getItem('userName') || '', message);
     setMessage('');
   };
 
