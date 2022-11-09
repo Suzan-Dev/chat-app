@@ -1,10 +1,10 @@
-import { FC } from 'react';
+import { FC, RefObject } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Message } from './ChatPage';
 
 interface ChatBodyProps {
   messages: Message[];
-  lastMessageRef: any;
+  lastMessageRef: RefObject<HTMLDivElement>;
   typingStatus: string;
 }
 

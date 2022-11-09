@@ -21,7 +21,6 @@ const ChatFooter: FC<ChatFooterProps> = ({ socket }) => {
     }
 
     setMessage('');
-    socket.emit('typingStopped', '');
   };
 
   useEffect(() => {

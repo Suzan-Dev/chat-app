@@ -18,7 +18,7 @@ export interface Message {
 const ChatPage: FC<ChatPageProps> = ({ socket }) => {
   const [messages, setMessages] = useState<Message[]>([]);
   const [typingStatus, setTypingStatus] = useState('');
-  const lastMessageRef = useRef<any>(null);
+  const lastMessageRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     socket.on('messageResponse', (data) => {
